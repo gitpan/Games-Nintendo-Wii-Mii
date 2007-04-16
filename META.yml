@@ -13,12 +13,12 @@ no_index:
     - inc
     - t
 requires: 
-  Carp: 0
-  Class::Accessor::Fast: 0
-  File::Slurp: 0
-  IO::File: 0
+  Carp: 1.03
+  Class::Accessor::Fast: 0.3
+  File::Slurp: 9999.12
+  IO::File: 1.1
   Readonly: 0
-  Tie::IxHash: 0
-  URI: 0
-  XML::LibXML: 0
-version: 0.01
+  Tie::IxHash: 1.21
+  URI: 1.35
+  XML::LibXML: 1.62
+version: 0.02

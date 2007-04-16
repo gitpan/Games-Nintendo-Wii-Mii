@@ -19,15 +19,15 @@ __PACKAGE__->mk_accessors(@ACCESSORS);
 
 =head1 NAME
 
-Games::Nintendo::Wii::Mii::Data::Mustache - Mii's beard and mustache data
+Games::Nintendo::Wii::Mii::Data::BeardMustache - Mii's beard and mustache data
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 METHODS
 
@@ -80,4 +80,4 @@ under the same terms as Perl itself.
 
 =cut
 
-1; # End of Games::Nintendo::Wii::Mii::Data::Mustache
+1; # End of Games::Nintendo::Wii::Mii::Data::BeardMustache

@@ -135,11 +135,11 @@ Games::Nintendo::Wii::Mii - Mii in Nintendo Wii data parser and builder.
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -395,9 +395,6 @@ sub to_xml {
 
     my $dtd = $doc->createInternalSubset($root->tagName, undef, 'http://www.miieditor.com/xml/mii.dtd');
     $doc->setInternalSubset($dtd);
-
-    my $comment = XML::LibXML::Comment->new('Generate by ' . __PACKAGE__ . ' version ' . $VERSION);
-    $doc->appendChild($comment);
 
     my $mii_element = $doc->createElement('mii');
     $mii_element->setAttribute('value', $self->to_hexdump);
